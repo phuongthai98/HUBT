@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative
+}
+
+.icon-up {
+    width: 20px;
+    z-index: 1001;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+.icon-up img {
+    width: 150%;
+    border-radius: 100%;
+}
+
+.topbar {
+    border-bottom: 1px solid #ebebeb;
+    height: 40px !important;
+    min-height: 40px;
+}
+
+.topbar > div > ul > li > a {
+    color: #737373 !important;
+    padding: 0px 15px;
+    line-height: 40px;
+}
+
+.topbar > div > ul > li > a:hover {
+    color: #1a66ff !important;
+    background: none;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+.main-menu {
+    background-color: #ffd333;
+    color: #000;
+}
+
+.shopby {
+    background-color: #3d464d;
+    color: #fff;
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    margin-top: 6px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.shopby > h4 {
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.main-menu .navbar {
+    margin-bottom: 0;
+    background-color: #ffd333;
+    border: none;
+    font-weight: 700;
+}
+
+.main-menu .navbar ul li a {
+    color: #000
+}
+
+.btntopbar {
+    margin-top: 1px;
+}
+
+.icon-cart li {
+    position: relative;
+}
+
+.icon-cart li a {
+    font-size: 20px;
+}
+
+.icon-cart li span {
+    font-size: 12px;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    padding: 0px 5px;
+    border-radius: 50%;
+    top: 6px;
+    right: 0;
+    display: inline-block;
+}
+
+.menu-item {
+    padding: 0px;
+    z-index: 10;
+}
+
+.menu-item > ul {
+    list-style: none;
+    background-color: #3d464d;
+    padding: 0;
+    position: relative;
+}
+
+.menu-item > ul > li {
+}
+
+.menu-item > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 8px 16px;
+}
+
+.menu-item > ul > li > a:hover {
+    background-color: #525d66;
+    cursor: pointer;
+}
+
+.menu-item-col9 {
+    padding-right: 0
+}
+
+.shopnow1 {
+    position: relative;
+}
+
+.shopnow {
+    position: absolute;
+    bottom: -20px;
+    left: 60px;
+    text-align: left;
+}
+
+.shopnow > h1, p {
+    color: #525d66;
+    font-family: roboto, serif;
+}
+
+.banner-preview {
+    top: 40% !important;
+}
+
+.carousel-indicators .active {
+    background-color: #FFD333 !important;
+}
+
+
+.subtitle > .container > .row > table {
+    margin: 20px 0;
+    width: 100%
+}
+
+.subtitle > .container > .row > table td {
+    border: 2px solid #C4C4C4;
+}
+
+.subtitle > .container > .row > table img {
+    float: left;
+    width: 50px;
+    margin: 20px;
+}
+
+.feature .hr {
+    margin-left: 10px;
+    margin-top: 35px;
+    float: left;
+    width: 500px;
+    height: 2px;
+    background-color: #f0f0f0;
+}
+
+.feature > h3 {
+    float: left;
+}
+
+.feature > ul {
+    list-style: none;
+}
+
+.feature > ul > li {
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.feature > ul > li > a {
+    text-decoration: none;
+    line-height: 70px;
+    padding: 3px 10px;
+    color: #000;
+    border-radius: 15px;
+    border: 2px solid #fff;
+
+}
+
+.feature > ul > li > a:hover {
+    border-radius: 15px;
+    border: 2px solid #f0f0f0
+}
+
+.feature .feature-btn {
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px 2px 2px 2px;
+    border-radius: 5px;
+}
+
+.feature .feature-btn > span {
+    line-height: 30px;
+}
+
+.feature .feature-btn:hover {
+    background-color: #FFD333;
+    border-radius: 5px;
+}
+
+.li4 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    list-style: none;
+    position: absolute;
+    left: 285px;
+    top: 0px;
+    z-index: 0;
+    background-color: #ffd333;
+    padding: 30px;
+    margin: 0;
+    width: 237px;
+    height: 396px;
+    box-shadow: 1px 1px 15px -3px #333;
+    /* display: none; */
+    transition: 2s all;
+    opacity: 0;
+}
+
+.menu-item > ul > li > ul > li > h4 {
+    border-bottom: 2px solid #f0f0f0;
+    font-family: Roboto
+}
+
+.menu-item > ul > li > ul > li > h4 > a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+.menu-item > ul > li > ul > li > h4 > a:hover {
+    color: red;
+}
+
+.menu-item > ul > li > ul > li > a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.menu-item > ul > li > ul > li > a:hover {
+    color: #337ab7;
+}
+
+.menu-item li:hover .li4 {
+    display: block;
+    z-index: 10;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.item-product {
+    position: relative;
+}
+
+.item-product > #ifo-item-product {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item-product > a > img {
+    padding-top: 40px;
+}
+
+.item-product > #ifo-item-product {
+    padding: 10px;
+}
+
+.item-product > #ifo-item-product:hover {
+    background-color: #C4C4C4;
+}
+
+.banner1 {
+    position: relative;
+    text-align: center;
+    font-family: roboto;
+    color: #3d464d;
+}
+
+.banner-btn {
+    z-index: 1000;
+    position: absolute;
+    top: 5px;
+    left: 34%;
+}
+
+.banner-btn > h3 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+.banner-btn > p {
+    padding: 5px;
+    padding-top: 0
+}
+
+.banner-btn > a {
+    text-decoration: none;
+    padding: 6px 16px;
+    background-color: #FFD333;
+    color: #3d464d;
+    border-radius: 4px;
+}
+
+.banner-btn > a:hover {
+    background-color: #3d464d;
+    color: #fff;
+}
+
+.item-product > a {
+    text-decoration: none;
+    color: #3d464d;
+}
+
+.item-product > a:hover {
+    color: #1a66ff
+}
+
+footer {
+    border-top: 1px solid #ebebeb;
+    margin-top: 50px;
+    font-family: roboto;
+}
+
+
+footer .tren {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+footer .tren h3 {
+    font-weight: 700;
+    font-size: 25px;
+
+    padding: 20px 0;
+}
+
+footer .tren span {
+    padding-right: 8px;
+}
+
+footer .tren ul {
+    list-style: none;
+}
+
+footer .tren a {
+    text-decoration: none;
+    color: #3d464d;
+    padding: 7px 0;
+    display: block;
+    padding-top: 0
+}
+
+footer .tren a:hover {
+    color: #007bff;
+}
+
+footer .tren button {
+    margin: 5px 0 5px 5px;
+    background-color: #FFD333;
+    color: #3d464d;
+}
+
+footer .tren button:hover {
+    background-color: #3d464d;
+    color: #fff;
+}
+
+.ul-icon > li {
+    float: left;
+    display: block;
+}
+
+footer .ft-duoi > .left {
+    float: left;
+    line-height: 50px;
+}
+
+footer .right {
+    float: right;
+    margin-top: 6px;
+}
+
+footer .ft-duoi > .right ul {
+    list-style: none;
+}
+
+footer .ft-duoi > .right > ul > li {
+    float: left;
+    display: block;
+}
+
+
+.bs-left {
+    font-family: roboto;
+    font-weight: 700;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.bs-right {
+    width: 85%;
+    height: 2px;
+    background-color: #ebebeb;
+    margin-top: 35px;
+    float: left;
+}
+
+.product-sell {
+    font-family: roboto;
+}
+
+.phan {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+
+.product-sell a {
+    text-decoration: none;
+    color: #3d464d;
+}
+
+.product-sell a:hover {
+    color: #1a66ff
+}
+
+.product-sell img {
+    width: 100%
+}
+
+.product-sell .phan1 {
+    padding: 30px !important;
+    position: relative;
+}
+
+.product-sell .phan2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+}
+
+.product-sell .tren {
+    border-bottom: none;
+}
+
+.product-sell .tren, .duoi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.product-sell .phan1, .tren1, .tren2, .tren3, .duoi1, .duoi2, .duoi3 {
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.new {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.zom {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 8px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.zom:hover {
+    background-color: #c9c9c9;
+}
+.zom:hover a{
+    color: #fff;
+}
+
+.phan1 > img {
+    margin-bottom: 20px;
+}
+
+.phan1 .button {
+    padding: 15px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    background-color: #FFD333;
+    font-weight: 700
+}
+
+.phan1 button:hover {
+    background-color: #3d464d;
+    color: #fff
+}
+
+.phan1-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.phan1-icon span {
+    padding: 0 5px;
+    color: #dae0e5;
+}
+
+.phan1-icon span:hover {
+    color: #212529;
+}
+
+.tren-hot {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.thai {
+    border-radius: 10px;
+}
+
+.thai:hover {
+    box-shadow: 0px 35px 90px -30px;
+    z-index: 10;
+    transition: 1.5s all;
+}
+#home_login {
+    width: 600px;
+    position: absolute;
+    left: -100px;
+    top: 0px;
+    opacity: 0;
+    z-index: -1;
+}
