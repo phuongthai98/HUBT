@@ -11,7 +11,7 @@ class addAdminUser extends Seeder
      */
     public function run()
     {
-        \App\Models\Users::query()->insert([
+        \App\Models\User::query()->insert([
             'name' => 'npthai',
             'full_name' => 'Nguyễn Phương Thái',
             'email' => 'phuongthai98@gmail.com',
