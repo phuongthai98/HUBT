@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Hãng sản xuất</label>
-                    <select name="group" id="input" class="form-control">
+                    <select name="group2" id="input" class="form-control">
                         @foreach($category as $v)
                             <option value="{{$v->id}}">{{$v->category_name}}</option>
                         @endforeach

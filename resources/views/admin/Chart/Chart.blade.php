@@ -59,7 +59,7 @@
             }],
             yAxis: [{ // Primary yAxis
                 labels: {
-                    format: '{value} chiếc',
+                    format: '{value} lượt',
                     style: {
                         color: Highcharts.getOptions().colors[1]
                     }
